@@ -1,9 +1,10 @@
 Package: com.phillipt.mathpass
 Name: MathPass
 Depends: mobilesubstrate
-Version: 0.0.1
+Version: 2.0
 Architecture: iphoneos-arm
-Description: Changes your passcode to a math problem!
+Description: Change your passcode to a simple math problem!
+Depends: com.bd452.libpass
 Maintainer: Phillip Tennen
 Author: Phillip Tennen
 Section: Tweaks

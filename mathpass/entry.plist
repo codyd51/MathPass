@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = MathPass;
+	cell = PSLinkCell;
+	detail = MathPassListController;
+	icon = MathPass.png;
+	isController = 1;
+	label = MathPass;
+    };
+}

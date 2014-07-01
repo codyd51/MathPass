@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>MathPass</string>
+			<key>footerText</key>
+			<string>All changes apply without a respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.phillipt.mathpass</string>
+			<key>PostNotification</key>
+			<string>com.phillipt.mathpass/preferencechanged</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Difficulty</string>
+			<key>footerText</key>
+			<string>Easy goes to 12, Medium goes to 50, Hard goes to 99.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>defaults</key>
+			<string>com.phillipt.mathpass</string>
+			<key>PostNotification</key>
+			<string>com.phillipt.mathpass/preferencechanged</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>difficulty</string>
+			<key>label</key>
+			<string>Difficulty</string>
+			<key>validTitles</key>
+			<array>
+			<string>Easy</string>
+			<string>Medium</string>
+			<string>Hard</string>
+			</array>
+			<key>validValues</key>
+			<array>
+			<string>1</string>
+			<string>2</string>
+			<string>3</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>MathPass © 2014 Phillip Tennen</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>MathPass</string>
+</dict>
+</plist>
